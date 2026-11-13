@@ -8,9 +8,9 @@ workbook.
 **Dataset:** Kaggle *Student Alcohol Consumption* (a mirror of the UCI *Student
 Performance* dataset by Cortez & Silva, 2008).
 **Sample:** 1,044 students — Mathematics (n = 395) and Portuguese language (n = 649).
+**Repository:** [b6-statistics-linear-algebra-visualization](https://github.com/fatimamuhammadbashir/b6-statistics-linear-algebra-visualization) — public GitHub repository.
 **Status:** notebook executed end-to-end with zero errors; 7 charts; 25/25 spreadsheet
-cross-checks PASS. This folder is **not** a Git repository and nothing was submitted
-or published.
+cross-checks PASS. FIP submission is still pending.
 
 ---
 
@@ -267,6 +267,7 @@ within 1 × 10⁻⁹. Result: **25/25 checks PASS**, maximum absolute difference
 
 ## 14. Academic integrity and scope
 
-This is an independent B6 build. It does not modify B4 or B5, does not start B7, does
-not use Git, and nothing was committed, pushed or published. The assignment was not
-submitted.
+This is an independent B6 build. It does not modify B4 or B5 and does not start B7.
+The project is published in a public GitHub repository:
+<https://github.com/fatimamuhammadbashir/b6-statistics-linear-algebra-visualization>.
+The FIP assignment submission is still pending.
