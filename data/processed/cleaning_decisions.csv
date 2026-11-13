@@ -1,0 +1,7 @@
+issue,finding,decision,evidence
+Missing values,"0 missing cells in 1,044 rows x 35 columns",No imputation; all rows retained,df.isna().sum().sum() == 0
+Duplicate rows,0 exact duplicate rows in either raw file,No deduplication; IDs are constructed for traceability,df.duplicated().sum() == 0
+Grade scale,"G1, G2 and G3 are integers on the documented 0–20 scale",No rescaling; pass mark analysed at G3 >= 10,range checks passed
+Attendance outlier,Mathematics absences reach 75 (median 4); 15 math students exceed 20,"Retain the value, flag absences > 30, and report a sensitivity check; do not winsorise",skewness 3.67 for mathematics absences
+Failures code,"failures is capped at 3, so 3 means '3 or more'",Treat as ordinal; do not interpret equal spacing,value counts 0–3 only
+Cohort structure,Two subject files with different students and overlapping background profiles,Keep cohorts separate for inference; use subject as a grouping variable when pooled,395 math and 649 Portuguese rows
